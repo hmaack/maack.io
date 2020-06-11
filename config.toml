@@ -1,0 +1,44 @@
+baseURL = "//www.maack.io/"
+languageCode = "en-us"
+title = "Hannes Christian Maack"
+theme="hugo-split-theme"
+
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Copyright
+copyright = "&copy;2019 Hannes Christian Maack"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Hannes Christian Maack"
+  description = "Hannes Christian Maack's Website"
+  shareImage = "images/social.jpg"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+  [[params.links]]
+
+  [params.links.list1]
+    heading = "Connect"
+
+    [[params.links.list1.link]]
+      text = "Email"
+      url = "mailto:hannes@maack.io"
+
+    [[params.links.list1.link]]
+      text = "Github"
+      url = "https://github.com/hmaack/"
+
+    [[params.links.list1.link]]
+      text = "LinkedIn"
+      url = "https://www.linkedin.com/in/hmaack/"
