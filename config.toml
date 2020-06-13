@@ -6,14 +6,14 @@ theme="hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
 # Copyright
-copyright = "&copy;2019 Hannes Christian Maack"
+copyright = "&copy;2020 Hannes Christian Maack"
 
 [params]
 
   # Metadata for search engines and social sharing
   author = "Hannes Christian Maack"
   description = "Hannes Christian Maack's Website"
-  shareImage = "images/social.jpg"
+  shareImage = "images/background.jpg"
 
   # Favicon
   favicon = "favicon.ico"
