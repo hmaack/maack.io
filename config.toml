@@ -1,4 +1,4 @@
-baseURL = "//www.maack.io/"
+baseURL = "//maack.io/"
 languageCode = "en-us"
 title = "Hannes Christian Maack"
 theme="hugo-split-theme"
